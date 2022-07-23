@@ -1,8 +1,9 @@
 <?php
 
 require_once __DIR__ . '/vendor/autoload.php';
-$apiKey = '1a7361cbc73a0d6ec36708504b1772037f50fdc36bbabcae455bc6ab8d0caec4';
-$file   = new \nguyenanhung\Tool\DrVirus\File($apiKey);
+// VirusTotal API key [REQUIRED]
+$virusTotalAPI = '__VirusTotal+API+key__';
+$file   = new \nguyenanhung\Tool\DrVirus\File($virusTotalAPI);
 
 $result = $file->scan($_GET['url']);
 $resource=$result["resource"];
@@ -20,8 +21,8 @@ header('Content-Type: image/png');
  * Configuration
  */
 
-// VirusTotal API key [REQUIRED]
-$virusTotalAPI = '1a7361cbc73a0d6ec36708504b1772037f50fdc36bbabcae455bc6ab8d0caec4';
+
+
 
 function HTTPPost($url, array $params) {
     $query = http_build_query($params);
