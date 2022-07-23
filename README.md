@@ -4,11 +4,11 @@
 
 1. **Get your own VIRUSTOTAL API key**
 
-   You Should see [this](https://support.virustotal.com/hc/en-us/articles/115002100149-API)
+   You should see [this](https://support.virustotal.com/hc/en-us/articles/115002100149-API)
 
 2. **Create your bot in Telegram**
 
-   For this,See [this](https://core.telegram.org/bots)
+   See [this](https://core.telegram.org/bots)
 
 3. **Now edit these files:**
 
