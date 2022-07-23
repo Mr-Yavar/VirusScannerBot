@@ -1,7 +1,7 @@
 # VIRUS SCANNER BOT
-===
+
 # How to Run:
---
+
 1. **Get your own VIRUSTOTAL API key**
 
    You Sholud see [this](https://support.virustotal.com/hc/en-us/articles/115002100149-API)
